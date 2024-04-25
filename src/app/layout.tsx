@@ -8,5 +8,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <h1>Welcome to Profile</h1> ;
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
 }
